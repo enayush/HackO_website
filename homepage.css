@@ -160,7 +160,7 @@ header {
 .home-btn{
   width: 100%;
   position: absolute;
-  top: 70%;
+  top: 80%;
   transform: translateY(-50%);
   text-align: center;
   color: white;
