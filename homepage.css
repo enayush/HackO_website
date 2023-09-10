@@ -53,19 +53,19 @@ body {
 header {
   position: fixed ;
   width: 100%;
-  top: 0;
   
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 7px 10%;
-  background-color: #24252a;
+  background-color: transparent;
   
 }
 
 .logo {
-  left: 0;
-  cursor: pointer;
+  font-size: 25px;
+  color: white;
+  font-family: 'Preahvihear', sans-serif;
 }
 .logo-img{
   left: 0;
@@ -83,6 +83,7 @@ header {
 }
 
 .nav__links {
+  font-size: 20px;
   list-style: none;
   display: flex;
   margin-right: auto;
@@ -108,6 +109,7 @@ header {
 }
 
 .cta {
+  font-size: 20px;
   padding: 9px 25px;
   background-color: rgba(0, 136, 169, 1);
   border: none;
@@ -138,27 +140,44 @@ header {
 
 }
 
-.main_container{
-
-  display: grid;
-  height: 93vh;
-  width: 100%;
-  grid-template-columns: 1.25fr 0.75fr;
-  gap: 2px;
-  margin-top: 63px;
-  
-
-}
-
 .main_content{
-  background-color: red;
+  /* background-color: red; */
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(assest/mainb1.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
-.hot_topics{
-  background-color: pink;
+.content-home{
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: white;
+}
+.home-btn{
+  width: 100%;
+  position: absolute;
+  top: 70%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: white;
+
+}
+.content-home h1{
+  font-size: 100px;
+  margin-top: 80px;
 
 }
 
+.content-home p{
+  font-size: 30px;
+  margin: 20px auto;
+  font-weight: 100;
+  line-height: 25px;
+}
 
 .success_heading{
   font-size: 36px;
